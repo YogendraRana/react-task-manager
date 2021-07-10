@@ -1,0 +1,118 @@
+.app {
+  background-color: #1a0d0a;
+  height: 100vh;
+  width: 100%;
+  background: #b2beb5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-wrapper{
+  height: 600px;
+  width: 400px;
+  background: #24252a;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.header p {
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.25rem;
+  font-size: 1.25rem;
+  font-weight: bolder;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input {
+  width: 50%;
+  padding: 0.5rem 1rem;
+  color: white;
+  margin-right: 0.5rem;
+  background: transparent;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 1rem;
+}
+
+.form button {
+  background: transparent;
+  padding: 0.5rem 1rem;
+  color: white;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 1rem;
+}
+
+.form button:hover {
+  background-color: white;
+  color: #1a0d0a;
+}
+
+.list {
+  width: 100%;
+  padding: 0;
+}
+
+.list .list-item:nth-child(1) {
+  margin-top: 5rem;
+}
+
+.list .list-item {
+  display: flex;
+  margin-top: 0.25rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.list .list-item span {
+  color: white;
+  margin-right: auto;
+}
+
+.list .list-item .buttons .btn {
+  height: 1.55rem;
+  width: 1.55rem;
+  color: white;
+  background: transparent;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.list .list-item .buttons .btn:hover {
+  background-color: white;
+  color: #1a0d0a;
+}
+
+.list .list-item .buttons .btn:nth-child(1) {
+  margin-right: 0.25rem;
+}
+
+.list .list-item .buttons .btn .fa {
+  font-size: 0.75rem;
+}
+
+.no-task {
+  color: #777574;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
